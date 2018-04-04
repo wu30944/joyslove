@@ -13,7 +13,7 @@
                 <p><span class="fa fa-envelope-o" aria-hidden="true"></span> <a href="mailto:info@example.com">{{$About['email']}}</a></p>
             </div>
             <ul class="top-right-info">
-                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/%E5%85%89%E8%8F%AF%E7%85%8E%E9%A4%85%E6%9E%9C%E5%AD%90-324011711434356/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
@@ -54,16 +54,17 @@
                             <li><a class="scroll" href="#home" class="active">首頁</a></li>
                             <li><a class="scroll" href="#about">關於就是愛</a></li>
                             <li><a class="scroll" href="#choose">最新消息</a></li>
+                            <li><a class="scroll" href="#menu">就是愛 MENU</a></li>
                             <!--<li><a class="scroll" href="#services">營業時間</a></li>-->
-                            <li class="dropdown menu__item">
-                                <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" data-hover="Pages" role="button" aria-haspopup="true"
-                                   aria-expanded="false">Drop Down <span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="scroll" href="#menu">就是愛 MENU</a></li>
-                                    <li><a class="scroll" href="#book">Booking</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="scroll" href="#gallery">Gallery</a></li>
+                            {{--<li class="dropdown menu__item">--}}
+                                {{--<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" data-hover="Pages" role="button" aria-haspopup="true"--}}
+                                   {{--aria-expanded="false">Drop Down <span class="fa fa-angle-down"></span></a>--}}
+                                {{--<ul class="dropdown-menu">--}}
+                                    {{--<li><a class="scroll" href="#menu">就是愛 MENU</a></li>--}}
+                                    {{--<li><a class="scroll" href="#book">Booking</a></li>--}}
+                                {{--</ul>--}}
+                            {{--</li>--}}
+                            <li><a class="scroll" href="#gallery">就是愛特色</a></li>
                             <li><a class="scroll" href="#client">尋找就是愛</a></li>
                             <li><a class="scroll" href="#mail">與我們聯絡</a></li>
                         </ul>
@@ -83,10 +84,10 @@
                         <li>
                             <div class="banner-top" style="background-image:url('{{$item->photo_path}}');">
                                 <div class="banner-info_agile_w3ls">
-                                    <h3>Come hungry. <span>Leave</span> happy.</h3>
+                                    <h3>享受美食</h3>
                                     <p>Small change,Big differences.</p>
-                                    <a href="#about" class="scroll">Read More <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                    <a href="#mail" class="scroll">Contact Us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <a href="#menu" class="scroll">查看菜單 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    {{--<a href="#mail" class="scroll">Contact Us <i class="fa fa-caret-right" aria-hidden="true"></i></a>--}}
                                 </div>
                             </div>
                         </li>

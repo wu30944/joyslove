@@ -82,7 +82,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapJoysLoveWebRoutes()
     {
-        Route::prefix('/joyslove')
+        Route::prefix('/')
             ->middleware('web')
             ->namespace('App\Http\Controllers\Joyslove')
             ->group(base_path('routes/joyslove.php'));
