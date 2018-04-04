@@ -83,7 +83,8 @@ return [
     'email'=>'E-MAIL',
     'uniform_number'=>'統一編號',
     'fex'=>'傳真號碼',
-    'company_name'=>'公司名稱'
+    'company_name'=>'公司名稱',
+    'check'=>'查看'
 
 
 

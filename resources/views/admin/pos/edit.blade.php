@@ -15,12 +15,12 @@
             </div>
 
             <div class="col-md-6 col-xs-6 content" id="Content" style="width:40%;height:240px;overflow-y:auto;">
-                <table id="Flavor" align="center" class="table table-bordered" style="font-size: 16px;">
+                <table id="Flavor" align="center" class="table table-bordered scrollable" style="font-size: 16px;">
                     <thead>
-                    <td>@lang('default.flavor')</td>
-                    <td>@lang('default.number')</td>
-                    <td>@lang('default.money')</td>
-                    <td>@lang('default.edit')</td>
+                        <td>@lang('default.flavor')</td>
+                        <td>@lang('default.number')</td>
+                        <td>@lang('default.money')</td>
+                        <td>@lang('default.edit')</td>
                     </thead>
                     <tbody>
                     </tbody>
@@ -33,7 +33,7 @@
         <div class="row">
 
             <div class="col-md-6 col-xs-6">
-                <table class="table table-bordered table-striped" id="gridview">
+                <table class="table table-bordered table-striped" id="gridview" >
                     @if (isset($dtFlavor) and count($dtFlavor)>0)
                         @foreach($dtFlavor->chunk(3) as $Flavor)
                             <tr class="item" align="center">

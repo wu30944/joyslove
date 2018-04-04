@@ -4,31 +4,11 @@
     <style>
         .animated{-webkit-animation-fill-mode: none;}
 
-        /*#Item{*/
-            /*position: fixed;*/
-            /*top: 0;*/
-            /*left: 0;*/
-            /*width: 40%;*/
-            /*height: 50px;*/
-            /*z-index: 10000;*/
-            /*background-color: #faf2cc;*/
-            /*border-width: 0px;*/
-            /*border-style: solid;*/
-            /*padding: 15px;*/
-            /*font-size: 30px;*/
-        /*}*/
-        /*#Flavor{*/
-            /*position: fixed;*/
-            /*top: 0;*/
-             /*z-index: 10000;*/
-            /*background-color: #faf2cc;*/
-            /*border-style: solid;*/
-        /*}*/
-
         #Content {
             position: absolute;
             left:50%;
         }
+
     </style>
 @endsection
 
@@ -49,7 +29,7 @@
             </div>
             <div class="ibox-content">
                 <div class="table-responsive text-center">
-                    <table class="table table-bordered table-striped" id="dtOrderInfo" style="font-size: 20px;">
+                    <table class="table table-bordered table-striped scrollable" id="dtOrderInfo" style="font-size: 20px;">
                         <thead>
                             <tr>
                                 <th class="text-center">@lang('default.customer_no')</th>
@@ -410,12 +390,36 @@
         });
 
 
-        /*
-        * 禁止上下捲動網頁
-        * */
-        document.body.ontouchmove=function(e){
+
+        // Uses document because document will be topmost level in bubbling
+        $(document).on('touchmove',function(e){
             e.preventDefault();
-        };
+        });
+
+        var scrolling = false;
+
+        // Uses body because jquery on events are called off of the element they are
+        // added to, so bubbling would not work if we used document instead.
+        $('body').on('touchstart','.scrollable',function(e) {
+
+            // Only execute the below code once at a time
+            if (!scrolling) {
+                scrolling = true;
+                if (e.currentTarget.scrollTop === 0) {
+                    e.currentTarget.scrollTop = 1;
+                } else if (e.currentTarget.scrollHeight === e.currentTarget.scrollTop + e.currentTarget.offsetHeight) {
+                    e.currentTarget.scrollTop -= 1;
+                }
+                scrolling = false;
+            }
+        });
+
+        // Prevents preventDefault from being called on document if it sees a scrollable div
+        $('body').on('touchmove','.scrollable',function(e) {
+            e.stopPropagation();
+        });
+
+
 
 
 

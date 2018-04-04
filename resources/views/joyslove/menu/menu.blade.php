@@ -18,7 +18,7 @@
 
                                 <div class="menu-text-left">
                                     <div class="rep-img">
-                                        <img src="http://pos/storage/album/商品口味/gal1.jpg" alt=" " class="img-responsive">
+                                        <img src="http://joyslove/storage/album/菜單/196255_3_r.jpg" alt=" " class="img-responsive">
                                     </div>
                                     <div class="rep-text">
                                         <h4>經典原味煎餅果子............</h4>
@@ -53,7 +53,7 @@
                             <div class="menu-text_wthree">
                                 <div class="menu-text-left">
                                     <div class="rep-img">
-                                        <img src="http://pos/storage/album/商品口味/gal3.jpg" alt=" " class="img-responsive">
+                                        <img src="http://joyslove/storage/album/菜單/MOO_0554.jpg" alt=" " class="img-responsive">
                                     </div>
                                     <div class="rep-text">
                                         <h4>黑胡椒洋蔥雞肉煎餅果子............</h4>
@@ -92,7 +92,7 @@
 
                                 <div class="menu-text-left">
                                     <div class="rep-img">
-                                        <img src="http://pos/storage/album/商品口味/gal4.jpg" alt=" " class="img-responsive">
+                                        <img src="http://joyslove/storage/album/菜單/MOO_0547.jpg" alt=" " class="img-responsive">
                                     </div>
                                     <div class="rep-text">
                                         <h4>美式牽絲起司煎餅果子............</h4>
@@ -110,7 +110,7 @@
                             <div class="menu-text_wthree">
                                 <div class="menu-text-left">
                                     <div class="rep-img">
-                                        <img src="http://pos/storage/album/商品口味/gal5.jpg" alt=" " class="img-responsive">
+                                        <img src="http://joyslove/storage/album/菜單/196255_3_r.jpg" alt=" " class="img-responsive">
                                     </div>
                                     <div class="rep-text">
                                         <h4>泰式打拋豬煎餅果子............</h4>
@@ -128,7 +128,7 @@
                             <div class="menu-text_wthree">
                                 <div class="menu-text-left">
                                     <div class="rep-img">
-                                        <img src="http://pos/storage/album/商品口味/gal6.jpg" alt=" " class="img-responsive">
+                                        <img src="http://joyslove/storage/album/菜單/196255_4_r.jpg" alt=" " class="img-responsive">
                                     </div>
                                     <div class="rep-text">
                                         <h4>健康蔬菜煎餅果子............</h4>
@@ -247,7 +247,7 @@
                             <div class="menu-text_wthree">
                                 <div class="menu-text-left">
                                     <div class="rep-img">
-                                        <img src="http://pos/storage/album/商品口味/gal8.jpg" alt=" " class="img-responsive">
+                                        <img src="http://joyslove/storage/album/菜單/MOO_0524.jpg" alt=" " class="img-responsive">
                                     </div>
                                     <div class="rep-text">
                                         <h4>鮪魚洋蔥飯糰............</h4>
